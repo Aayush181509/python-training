@@ -9,7 +9,7 @@ nav:
   - Control Structures: lectures/3.ControlStructures.md
   - Data Structures: lectures/4.DataStructures.md
   - Functions: lectures/5.Functions.md
-  # - File Handling: lectures/6.FileHandling.md
+  - File Handling: lectures/6.FileHandling.md
   # - OOP: lectures/7.OOP.md
   # - Errors and Exceptions: lectures/8.ErrorDebugging.md
   # - Advanced Topics: lectures/9.AdvancedConcepts.md
