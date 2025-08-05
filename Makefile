@@ -3,7 +3,7 @@
 SHELL := /bin/bash
 # Default variables
 INPUT_DIR  := notebooks
-NOTEBOOK ?= notebooks/6.FileHandling.ipynb
+NOTEBOOK ?= notebooks/7.OOP.ipynb
 # Default output directory for converted notebooks
 # If OUTPUT is not set, it defaults to docs/lectures/
 OUTPUT   ?= docs/lectures/
