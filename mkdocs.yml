@@ -11,7 +11,7 @@ nav:
   - Functions: lectures/5.Functions.md
   - File Handling: lectures/6.FileHandling.md
   - OOP: lectures/7.OOP.md
-  # - Errors and Exceptions: lectures/8.ErrorDebugging.md
+  - Errors and Exceptions: lectures/8.ErrorDebugging.md
   # - Advanced Topics: lectures/9.AdvancedConcepts.md
   # - Python Download: index.md
 
