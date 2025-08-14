@@ -11,6 +11,8 @@
       
       
       
+        <link rel="prev" href="../8.ErrorDebugging/">
+      
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -18,7 +20,7 @@
     
     
       
-        <title>🚀 Advanced Python Concepts - Python Module</title>
+        <title>Advanced Topics - Python Module</title>
       
     
     
@@ -106,7 +108,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              🚀 Advanced Python Concepts
+              Advanced Topics
             
           </span>
         </div>
@@ -437,6 +439,412 @@
   
 
       </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Advanced Topics
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Advanced Topics
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-youll-learn" class="md-nav__link">
+    <span class="md-ellipsis">
+      📋 What You'll Learn
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-lambda-functions-functional-programming" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Lambda Functions &amp; Functional Programming
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Lambda Functions &amp; Functional Programming">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#lambda-functions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Lambda Functions
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-generators-iterators" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Generators &amp; Iterators
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Generators &amp; Iterators">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#generators" class="md-nav__link">
+    <span class="md-ellipsis">
+      Generators
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iterators" class="md-nav__link">
+    <span class="md-ellipsis">
+      Iterators
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-decorators" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Decorators
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Decorators">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-are-decorators" class="md-nav__link">
+    <span class="md-ellipsis">
+      What are Decorators?
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-context-managers-resource-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Context Managers &amp; Resource Management
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Context Managers &amp; Resource Management">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-are-context-managers" class="md-nav__link">
+    <span class="md-ellipsis">
+      What are Context Managers?
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-magic-methods-dunder-methods" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Magic Methods (Dunder Methods)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Magic Methods (Dunder Methods)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-are-magic-methods" class="md-nav__link">
+    <span class="md-ellipsis">
+      What are Magic Methods?
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-type-hints-static-typing" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Type Hints &amp; Static Typing
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Type Hints &amp; Static Typing">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-are-type-hints" class="md-nav__link">
+    <span class="md-ellipsis">
+      What are Type Hints?
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-advanced-data-structures" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Advanced Data Structures
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7. Advanced Data Structures">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#collections-module" class="md-nav__link">
+    <span class="md-ellipsis">
+      Collections Module
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-asyncio-concurrency" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Asyncio &amp; Concurrency
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8. Asyncio &amp; Concurrency">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#asynchronous-programming" class="md-nav__link">
+    <span class="md-ellipsis">
+      Asynchronous Programming
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#benefits" class="md-nav__link">
+    <span class="md-ellipsis">
+      Benefits:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-performance-optimization-profiling" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. Performance Optimization &amp; Profiling
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="10. Performance Optimization &amp; Profiling">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#performance-optimization-techniques" class="md-nav__link">
+    <span class="md-ellipsis">
+      Performance Optimization Techniques
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-advanced-list-comprehensions-comprehension-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Advanced List Comprehensions &amp; Comprehension Types
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="9. Advanced List Comprehensions &amp; Comprehension Types">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#list-dict-set-comprehensions" class="md-nav__link">
+    <span class="md-ellipsis">
+      List, Dict, Set Comprehensions
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-working-with-args-and-kwargs" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Working with args and *kwargs
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Working with args and *kwargs">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#quick-recap" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎯 Quick Recap
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#practice-exercises" class="md-nav__link">
+    <span class="md-ellipsis">
+      📝 Practice Exercises
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📝 Practice Exercises">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#beginner-level-1-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Beginner Level (1-5)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#intermediate-level-6-10" class="md-nav__link">
+    <span class="md-ellipsis">
+      Intermediate Level (6-10)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#advanced-level-11-15" class="md-nav__link">
+    <span class="md-ellipsis">
+      Advanced Level (11-15)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#expert-level-16-20" class="md-nav__link">
+    <span class="md-ellipsis">
+      Expert Level (16-20)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -2193,6 +2601,28 @@
       
         <footer class="md-footer">
   
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../8.ErrorDebugging/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Errors and Exceptions">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Errors and Exceptions
+              </div>
+            </div>
+          </a>
+        
+        
+      </nav>
     
   
   <div class="md-footer-meta md-typeset">
