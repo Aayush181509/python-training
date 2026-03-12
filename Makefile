@@ -2,12 +2,12 @@
 # Use bash for shell commands
 SHELL := /bin/bash
 # Default variables
-INPUT_DIR  := notebooks
-NOTEBOOK ?= notebooks/7.OOP.ipynb
+INPUT_DIR  := prg400
+NOTEBOOK ?= prg400/7.OOP.ipynb
 # Default output directory for converted notebooks
 # If OUTPUT is not set, it defaults to docs/lectures/
-OUTPUT   ?= docs/lectures/
-OUTPUT_DIR := docs/lectures
+OUTPUT   ?= docs/prg400/
+OUTPUT_DIR := docs/prg400
 NOTEBOOKS  := $(wildcard $(INPUT_DIR)/*.ipynb)
 
 .PHONY: run deploy build serve convert all convert-all

@@ -15,7 +15,8 @@ nav:
     - Errors and Exceptions: lectures/8.ErrorDebugging.md
     - Advanced Topics: lectures/9.AdvancedConcepts.md
   - Advanced Python:
-    - Advanced Topics: lectures/9.AdvancedConcepts.md
+    - Object Oriented Programming: prg400/OOP.md
+    - Design Patterns (SOLID): prg400/SOLID_Principles.md
 
 theme:
   # name: material
